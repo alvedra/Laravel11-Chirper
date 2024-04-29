@@ -1,6 +1,6 @@
 #Dockerfile Example on running PHP Laravel app using Apache web server 
 
-FROM php:8.3-apache
+FROM php:8.2-apache
 
 # Install necessary libraries
 RUN apt-get clean && apt-get update && apt-get install -y \
